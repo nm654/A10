@@ -1,0 +1,51 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	margin-left:10px;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+header h2{
+	font-size:175%;
+	color: #800000;
+	text-indent:30px;
+	/** I think it has to be specified as header h2, not just h2... it's messing with the speaker lines**/
+}
+
+header h3 {
+
+	font-size:105%;
+	text-indent:30px;
+	font-style: italic;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+/* the styles for the main section */
+main {
+	clear: left;
+}
+main h1 {
+	font-size:150%;
+}
+main h2 {
+	font-size: 130%;
+	color: #800000;
+/** Does the order change what displays...?**/
+
+}
+main h3 {
+	font-size: 105%;
+}
+
+/* the styles for the footer */
+footer p {
+	text-align: center;
+}
